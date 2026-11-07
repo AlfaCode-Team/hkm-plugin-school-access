@@ -1,0 +1,25 @@
+{
+    "name": "school-access",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.access",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "crypto.services",
+        "auth.identity",
+        "user.management",
+        "authorization.policy",
+        "audit.trail",
+        "school.directory"
+    ],
+    "exposes": [
+        "Plugins\\SchoolAccess\\API\\Contracts\\SchoolAccessContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Collapses the 13 legacy session identities into one Identity: role mapping, area PIN gates, super-admin impersonation and account linking.",
+    "config": []
+}

@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-school-access",
+    "description": "Collapses the 13 legacy session identities into one Identity: role mapping, area PIN gates, super-admin impersonation and account linking.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\SchoolAccess\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\SchoolAccess\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
